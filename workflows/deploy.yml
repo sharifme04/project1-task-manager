@@ -38,4 +38,3 @@ jobs:
             cd ../frontend && npm install && npm run build
             pm2 restart task-backend
             sudo systemctl reload nginx
-
